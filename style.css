@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+   
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items:center; 
+   width: 100%;
+    height: 100%;
+}
+.searchandbody{
+    display:grid;
+    grid-template-rows: 100px 1fr;
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.searchbox{
+    display: flex;
+    width:80%;
+    border-bottom:3px solid red;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    align-items: center;
+    justify-content:left;
+}
+
+#search1{
+    width: 50%;
+    height:40%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    font-size: 1rem;
+}
+.items
+{
+    width: 80%;
+    height: 80%;
+    place-self: center;
+    overflow-y: scroll;
+}
+.cards{
+    width: 50%;
+    height: 20%;
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.hide{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 0, 0, 0.804);
+    border-radius: 30px;
+}
